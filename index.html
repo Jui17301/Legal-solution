@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./images/business.png" type="image/x-icon">
+  <title>Law Of Justice</title>
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/5b5f613ef9.js" crossorigin="anonymous"></script>
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- daisy Ui -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Tailwind Custom Color -->
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          'gradient-start':'#FF8938',
+          'gradient-end':'#F00'
+        }
+      }
+    }
+  }
+</script>
+<style>
+  .font-poppins{
+    font-family: "Poppins", sans-serif;
+  }
+</style>
+
+</head>
+<body class="font-poppins">
+  <header>
+    <!-- Navbar starts here -->
+    <div class="navbar bg-base-100 flex lg:flex-row flex-col">
+      <div class="navbar-start">
+        <a class="btn text-xl"><img src="./images/logo.png" alt=""></a>
+      </div>
+      <div class="navbar-center lg:flex">
+        <ul class="menu menu-horizontal px-1 lg:flex-row flex flex-col justify-around">
+          <li><a>Home</a></li>
+            <li><a>Services<i class="fa-solid fa-chevron-right"></i></a></li>
+            <li><a>Cases<i class="fa-solid fa-chevron-right"></i></a></li>
+            <li><a>Blog<i class="fa-solid fa-chevron-right"></i></a></li>
+            <li><a>Contact Us<i class="fa-solid fa-chevron-right"></i></a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <a class="btn bg-[#B68C5A] h-12 w-40 text-white">Free Consultation</a>
+      </div>
+    </div>
+    <!-- banner starts here -->
+    <section class="banner">
+      <div class="hero lg:min-h-screen min-w-full" style="background-image: url(./images/banner.png);">
+        <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero-content text-center text-neutral-content">
+          <div class="max-w-md">
+            <h1 class="mb-5 text-4xl font-bold text-[#FFFFFF]">We Provide Effective Legal Solutions</h1>
+            <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <div class="flex space-x-2">
+              <input type="text" class="text-[#A0A0A0] bg-white p-2 rounded-lg w-96" placeholder="Search Your services">
+            <a class="btn bg-[#B68C5A] h-12 w-30 border-0 text-white">Search</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+  <main>
+
+  </main>
+
+
+<footer>
+
+</footer>
+</body>
+</html>
